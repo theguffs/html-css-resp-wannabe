@@ -127,3 +127,19 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+/*bonus - il container ha una width fissa quindi diventa "rigido" sotto ai 1160px
+ fino a quando non diventa tablet version*/
+
+@media screen and (max-width: 1160px) {
+    .container{
+        width: 100%;
+    }
+}
+
+/*tablet version (è possibile anche non metterlo visto l'esercizio bonus*/
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+}
