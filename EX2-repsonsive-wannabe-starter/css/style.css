@@ -127,7 +127,8 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-/*bonus - il container ha una width fissa quindi diventa "rigido" sotto ai 1160px
+
+ /*bonus - il container ha una width fissa quindi diventa "rigido" sotto ai 1160px
  fino a quando non diventa tablet version*/
 
 @media screen and (max-width: 1160px) {
@@ -143,3 +144,38 @@ img {
         width: 100%;
     }
 }
+
+/*mobile version */
+
+@media screen and (max-width: 480px) {
+    .row{
+        display: inline-block;
+        align-items: center;
+    } 
+    .lessons .col {
+        width: 100%;
+        margin:auto;
+        padding: 16px;
+    }
+    .steps .col {
+        width: 100%;
+        margin:auto;
+        padding: 16px;
+    }
+    .why-us .col {
+        width: 100%;
+        margin:auto;
+        padding: 16px;
+    }
+    .steps{
+        margin: 0;
+        padding: 0;
+    }
+    .why-us{
+    background-color: black;
+    margin-bottom: 0;
+    }
+    .container{
+        padding: 15px 5px;
+    }
+    }
